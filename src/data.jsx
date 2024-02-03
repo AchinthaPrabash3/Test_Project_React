@@ -35,3 +35,18 @@ export const stats = [
     dic: "endangered species",
   },
 ];
+export const projects = [
+  {
+    img: "https://images.pexels.com/photos/18183049/pexels-photo-18183049/free-photo-of-close-up-of-a-monkey.jpeg?auto=compress&cs=tinysrgb&w=800",
+    dis: `great ape conservation through 
+     local cominuty forest management`,
+  },
+  {
+    img: "https://images.pexels.com/photos/572861/pexels-photo-572861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    dis: "conserving africa's cape floral kingdom",
+  },
+  {
+    img: "https://images.pexels.com/photos/2078772/pexels-photo-2078772.jpeg",
+    dis: "conserving 'ridge to reef' in west papua",
+  },
+];

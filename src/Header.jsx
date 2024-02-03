@@ -27,7 +27,7 @@ const Li = ({ name, id }) => {
 
 const Navbar = () => {
   return (
-    <header className="absolute left-1/2 right-0 mx-auto h-16 w-full -translate-x-1/2">
+    <header className="container absolute left-1/2 mx-auto mr-4 h-16 w-full -translate-x-1/2">
       <nav className="flex h-full w-full items-center justify-between px-4">
         <h1 className="text-xl capitalize text-white">
           <a href="">flouna</a>
