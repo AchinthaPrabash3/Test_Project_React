@@ -1,12 +1,12 @@
 const NavbarItems = [
   { name: "our agency", id: "#" },
-  { name: "waht we do", id: "/WahtWeDo" },
+  { name: "waht we do", id: "#wahtWeDo" },
   { name: "urban chalaenges", id: "#" },
 ];
 const Li = ({ name, id }) => {
   return (
     <li className="group flex items-center gap-2 capitalize text-white transition-all duration-200 hover:scale-105 hover:font-semibold">
-      <a href="">{name}</a>
+      <a href={id}>{name}</a>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

@@ -33,7 +33,7 @@ const Projects = () => {
       <div className="flex flex-col md:flex-row md:items-end md:justify-between md:px-4">
         <div>
           <p className="pl-1 text-lg capitalize">our project</p>
-          <h1 className="mb-5 text-6xl capitalize md:mb-0">
+          <h1 className="mb-5 text-4xl capitalize md:mb-0 md:text-6xl">
             discover our global <br /> conservation projects
           </h1>
         </div>
@@ -45,8 +45,8 @@ const Projects = () => {
         </a>
       </div>
       <div className="mt-8 flex w-full flex-col gap-5 p-2 lg:h-[700px] lg:flex-row">
-        {projects.map((item) => {
-          return <Containers {...item} />;
+        {projects.map((item, index) => {
+          return <Containers {...item} key={index} />;
         })}
       </div>
     </section>

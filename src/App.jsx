@@ -4,6 +4,8 @@ import Hero from "./Hero";
 import AboutSection from "./About";
 import WahtWeDo from "./WhatDoWeDo";
 import Projects from "./OurProjects";
+import Statement from "./Statement";
+import Footer from "./Footer";
 function App() {
   return (
     <>
@@ -14,6 +16,8 @@ function App() {
         <WahtWeDo />
         <AboutUs />
         <Projects />
+        <Statement />
+        <Footer />
       </main>
     </>
   );

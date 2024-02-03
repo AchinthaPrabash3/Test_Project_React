@@ -18,7 +18,7 @@ const Card = ({ tag, description, img }) => {
 
 const WahtWeDo = () => {
   return (
-    <section className="mt-24 pb-10" id="wahtWeDo">
+    <section className="mt-24 scroll-mt-9 pb-10" id="wahtWeDo">
       <div className="flex flex-col items-end justify-between px-5 md:flex-row">
         <div>
           <p className="mb-5 capitalize">what we do</p>

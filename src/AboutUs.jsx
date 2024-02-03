@@ -29,12 +29,12 @@ const AboutUs = () => {
 };
 const Stats = ({ stat, dic }) => {
   return (
-    <div className=" flex items-center rounded-2xl  transition-all hover:scale-105  md:justify-center">
+    <div className=" flex flex-col items-start  rounded-2xl transition-all hover:scale-105  md:justify-start">
       <p className="mt-8 w-fit text-left text-8xl uppercase md:mt-5  md:text-8xl xl:text-8xl ">
         {stat}
-        <p className="pl-2 text-left text-sm  capitalize xl:w-[300px] xl:text-2xl">
-          {dic}
-        </p>
+      </p>{" "}
+      <p className="pl-2 text-left text-sm  capitalize xl:w-[300px] xl:text-2xl">
+        {dic}
       </p>
     </div>
   );
